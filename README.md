@@ -1,5 +1,7 @@
 # Stress Tracking App
 
+This project is on <a href="https://github.com/geoffdavis92/stresstrackingapp">GitHub</a>!
+
 * Press "Start" button to start the timer.
 
 * Use arrow keys or mouse cursor to change your stress level over time.
