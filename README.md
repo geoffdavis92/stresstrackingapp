@@ -1,6 +1,11 @@
 # Stress Tracking App
 
-This project is on <a href="https://github.com/geoffdavis92/stresstrackingapp">GitHub</a>!
+This project is on GitHub:
+
+* [Repo](https://github.com/geoffdavis92/stresstrackingapp)
+* [Demo](http://geoffdavis92.github.io/stresstrackingapp/)
+
+Instructions:
 
 * Press "Start" button to start the timer.
 
