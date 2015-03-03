@@ -1,4 +1,4 @@
-// script.js
+// script.js | trackingapp | geoff davis / gdavis5@harding.edu
 
 // TIMER
 var seconds = 0;
