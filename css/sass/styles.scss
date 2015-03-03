@@ -1,0 +1,51 @@
+// styles.scss | TrackingApp | geoffdavis5@harding.edu
+/* styles.css */
+
+// variables
+	$width : 180px;
+	$setupMargin : (-1% 0 2.5% 2%);
+	$blue : #304F63;
+
+//
+div.content{
+	padding: 25px;
+
+	p#timer, p#stop{
+		text-align: left;
+		margin: 1% 0 1% 2%;
+	}
+	button.control{
+		background-color: $blue;
+		border: none;
+		border-radius: 3px;
+		color: white;
+		margin: $setupMargin;
+		padding: 6px;
+	}
+
+	form{
+		*{
+			display: block;
+			margin-left: 2%;
+		}
+		input[type=range]{
+			width: $width;
+		}
+		label[for=stressRange]{
+			font-size: .9em;
+			margin-left: 30px;
+			text-align: center;
+			width: $width;
+			word-spacing: 4px;
+		}
+	}
+	textarea#log{
+		resize: none;
+		margin: 0 0 0 2%;
+	}
+	label[for=log]{
+			display: block;
+			font-size: 1.1em;
+			margin: 1% 0 .25% 2%;
+		}
+}

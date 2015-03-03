@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+	<title>Tracking App</title>
+	<link rel="stylesheet" href="css/normalize.css" type="text/css">
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+	<script src="js/lib/jquery-2.1.1.min.js"></script>
+</head>
+<body>
+<div class="content"> 
+<!--  Content Area -->
+	<h1>Stress Log Application</h1>
+	<p id="timer"></p>
+	<button class="control" id="start" onclick="startTimer();">START</button><button class="control" id="stop" onclick="startTimer(0); checkOff();">STOP</button><button class="control" id="reset" onclick="reset();">RESET</button>
+	<form>
+	<input id="stressRange" name="stressRange" type="range" min="0" max="10" step="1" value="0" onchange="logChange();">
+	<label for="stressRange">0 1 2 3 4 5 6 7 8 9 10</label>
+	</form>
+	<label for="log">Log:</label>
+	<textarea name="log" id="log" disabled="disabled" rows="10" cols="83"></textarea>
+</div>
+
+<!-- Links javascript document -->
+<script src="js/script.js"></script>
+</body>

@@ -1,0 +1,33 @@
+/* styles.css */
+div.content {
+  padding: 25px; }
+div.content p#timer, div.content p#stop {
+  text-align: left;
+  margin: 1% 0 1% 2%; }
+div.content button.control {
+  background-color: #304F63;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  margin: -1% 0 2.5% 2%;
+  padding: 6px; }
+div.content form * {
+  display: block;
+  margin-left: 2%; }
+div.content form input[type=range] {
+  width: 180px; }
+div.content form label[for=stressRange] {
+  font-size: .9em;
+  margin-left: 30px;
+  text-align: center;
+  width: 180px;
+  word-spacing: 4px; }
+div.content textarea#log {
+  resize: none;
+  margin: 0 0 0 2%; }
+div.content label[for=log] {
+  display: block;
+  font-size: 1.1em;
+  margin: 1% 0 .25% 2%; }
+
+/*# sourceMappingURL=styles.css.map */
